@@ -4,6 +4,7 @@ metadata:
   name: demo-bucket
 spec:
   forProvider:
+    region: us-east-1
     acl: private
   providerConfigRef:
     name: localstack
